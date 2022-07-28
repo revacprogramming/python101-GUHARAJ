@@ -1,6 +1,6 @@
-# Why Program
-
-hrs=input("enter hour")
-rate=input("enter rate per hour")
-pay=float(hrs)*float(rate)
+ hrs = input("Enter Hours:")
+hrs=float(hrs)
+rate=input("Enter Rate:")
+rate=float(rate)
+pay=hrs*rate
 print("Pay:",pay)
